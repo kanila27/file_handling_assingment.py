@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>UZA TEKE </title>
+<style>
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0
+    background:#f0f0f0;
+    font-family;Arial,sans-serif;
+}
+.image-container{
+    perspective:1000px;
+}
+.image-3d{
+    transform: rotateY(20deg) rotateX(10deg);
+    transition: transform 0.5s;
+}
+.image-3d:hover{
+    transform:rotatey(0deg)rotatex(0deg);
+}
+</style>
+</head>
+<body>
+<div class="image-container">
+<img src="UZA_TEKE_3D_image.png" alt="uza teke 3d image" classs="image-3d">
+</div>
+</body>
+</html>
